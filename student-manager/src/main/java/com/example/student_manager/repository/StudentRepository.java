@@ -1,7 +1,7 @@
 
-package com.example.studentmanager.repository;
+package com.example.student_manager.repository;
 
-import com.example.studentmanager.model.Student;
+import com.example.student_manager.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository

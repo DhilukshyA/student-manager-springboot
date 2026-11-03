@@ -1,4 +1,4 @@
-package com.example.studentmanager.model; 
+package com.example.student_manager.model; 
   
 import jakarta.persistence.Column; 
 import jakarta.persistence.Entity; 
@@ -38,7 +38,6 @@ public class Student {
     @NotBlank(message = "Please select a course") 
     private String course; 
   
-9 
  
     @NotNull(message = "Age is required") 
     @Min(value = 15, message = "Age must be at least 15") 
